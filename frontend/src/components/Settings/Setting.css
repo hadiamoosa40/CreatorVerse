@@ -1,0 +1,96 @@
+/* Entire page container */
+.settings-container {
+  padding: 2rem;
+  margin-left: 10px;
+}
+
+/* Title */
+.settings-container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-left: 350px;
+}
+
+/* General Stats Cards (First Row) */
+.general-stats-cards {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.general-card {
+  padding: 1.5rem 2.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  max-width: 400px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.general-card strong {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.users-card {
+  background: #69826a;
+}
+
+.payments-card {
+  background: #96bcdb;
+}
+
+.revenue-card {
+  background: #877a66;
+}
+
+/* Plan Subscription Cards (Second Row) */
+.plan-subs-cards {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  padding: 1.5rem 2.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  max-width: 400px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.plan-card strong {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.plan-basic {
+  background: #4caf50;
+}
+
+.plan-standard {
+  background: #2196f3;
+}
+
+.plan-premium {
+  background: #9c27b0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .general-stats-cards,
+  .plan-subs-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
