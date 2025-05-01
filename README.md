@@ -44,8 +44,8 @@ pip install flask flask-cors flask-mysqldb bcrypt python-dotenv requests stripe 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+[git clone https://github.com/yourusername/yourrepo.git](https://github.com/hadiamoosa40/CreatorVerse.git)
+cd CreaterVerse
 ```
 
 2. Create a `.env` file in the root directory:
@@ -108,6 +108,7 @@ The server will start on [http://localhost:5000](http://localhost:5000).
 | GOOGLE_CLIENT_ID | Your Google OAuth Client ID |
 | SECRET_KEY | Flask secret key |
 | GEMINI_API_KEY | Google Gemini API key |
+| HUGGING_FACE_API_KEY | Your API key
 
 ---
 
@@ -122,7 +123,8 @@ The server will start on [http://localhost:5000](http://localhost:5000).
 
 - HuggingFace API (for text-to-image)
 - DeepAI API (for text-to-music)
-- Google Gemini API (for content generation)
+- Google Gemini API (for content and code generation)
+  
 
 > **Note:** Replace API keys with your own for production.
 
